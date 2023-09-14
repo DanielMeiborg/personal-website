@@ -11,4 +11,13 @@ export default defineNuxtConfig({
       ReactivityTransform()
     ]
   },
+  image: {
+    presets: {
+      default: {
+        modifiers: {
+          format: "webp",
+        }
+      }
+    }
+  }
 })

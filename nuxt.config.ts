@@ -1,5 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import ReactivityTransform from '@vue-macros/reactivity-transform/vite'
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"]
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"],
+  typescript: {
+    strict: true,
+  },
+  vite: {
+    plugins: [
+      ReactivityTransform()
+    ]
+  },
 })

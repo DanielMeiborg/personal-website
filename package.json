@@ -12,12 +12,13 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.9",
-    "daisyui": "^3.6.4",
+    "@vue-macros/reactivity-transform": "^0.3.23",
     "nuxt": "^3.7.0",
     "nuxt-icon": "^0.5.0"
   },
   "dependencies": {
     "@nuxt/image": "^1.0.0-rc.1",
-    "@vercel/analytics": "^1.0.2"
+    "@vercel/analytics": "^1.0.2",
+    "daisyui": "^3.7.3"
   }
 }
